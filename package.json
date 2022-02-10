@@ -1,0 +1,44 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "It is a blog app which allows users to create, read, comment blogs ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node swagger.js && node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajpra786/Blog-App.git"
+  },
+  "keywords": [
+    "reactjs",
+    "nodejs"
+  ],
+  "author": "Rajendra Prajapat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajpra786/Blog-App/issues"
+  },
+  "homepage": "https://github.com/Rajpra786/Blog-App#readme",
+  "dependencies": {
+    "aws-sdk": "^2.983.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.11.13",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.9.1",
+    "swagger-ui-express": "^4.1.6",
+    "@types/cookie": "^0.4.0",
+    "swagger-autogen": "^2.11.2"
+  },
+  "devDependencies": {
+
+  }
+}
